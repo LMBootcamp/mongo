@@ -1,7 +1,9 @@
 ##Requirements
 
 JDK 1.6 or later - Just a JRE is not sufficient, a full JDK is required
+
 maven 3.0.3 or later
+
 mongo 2.2 or later
 
 ##Install Mongo and load test data
