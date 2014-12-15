@@ -10,9 +10,11 @@ mongo 2.2 or later
 
 See http://docs.mongodb.org/manual/installation/ form mongo installation instructions.
 
-Navigate to the <mongo root>/bin directory and run the following command:
+Launch mongod if it is not running already (<<mongo root>>/bin/mongod)
 
-mongoimport -d blog -c posts <git repo path>/sampleData/posts.json
+Navigate to the <<mongo root>>/bin directory and run the following command:
+
+mongoimport -d blog -c posts <<git repo path>>/sampleData/posts.json
 
 ##Execute Maven and Launch the Web Container
 
