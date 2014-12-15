@@ -12,13 +12,13 @@ See http://docs.mongodb.org/manual/installation/ form mongo installation instruc
 
 Launch mongod if it is not running already (<<mongo root>>/bin/mongod)
 
-Navigate to the <<mongo root>>/bin directory and run the following command:
+Navigate to the [mongo root]/bin directory and run the following command:
 
-mongoimport -d blog -c posts <<git repo path>>/sampleData/posts.json
+mongoimport -d blog -c posts [git repo path]/sampleData/posts.json
 
 ##Execute Maven and Launch the Web Container
 
-For Linux/MAC users, execute the <git repo path>/javaCrudExample/run.sh
+For Linux/MAC users, execute the [git repo path]/javaCrudExample/run.sh
 
 For windows users, run the following mvn command in the <git repo path>/javaCrudExample directory :
 
