@@ -12,6 +12,10 @@ See http://docs.mongodb.org/manual/installation/ form mongo installation instruc
 
 Launch mongod if it is not running already ([mongo root directory]/bin/mongod)
 
+Perform a git clone to get the java code and sample data:
+
+git clone https://github.com/LMBootcamp/mongo.git
+
 Navigate to the [mongo root directory]/bin directory and run the following command:
 
 mongoimport -d blog -c posts [git repo path]/sampleData/posts.json
