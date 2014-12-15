@@ -24,7 +24,7 @@ mvn compile exec:java -Dexec.mainClass=course.BlogController
 
 If the above script or maven command executes successfully, you should be able to login or create a blog account via the link below:
 
-http://localhost:8082/login
+See http://localhost:8082/login
 
 
 
